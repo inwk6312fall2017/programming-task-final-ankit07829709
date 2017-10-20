@@ -1,7 +1,8 @@
 import string
-file10=open("book1.txt")
-file20=open("book2.txt")
-file30=open("book3.txt")
+
+file10 = open("book1.txt")
+file20 = open("book2.txt")
+file30 = open("book3.txt")
 
 def longest_word():
  book1 = " "
