@@ -1,3 +1,6 @@
+
+
+
 import weather
  
  class MetroForecast():
@@ -88,20 +91,5 @@ import weather
  if __name__ == '__main__':
      main() 
 
-import weather
- 
- class MetroForecast():
- 
- 
-     def __init__(self, metropolis):
-         self.metropolis = metropolis
-         self.weather_handle = weather.Weather()
- 
-     @staticmethod
-     def find_min_index(in_list):
-         res = 0
-         minim = 1000
-         for i in range(len(in_list)):
-             if int(in_list[i]) < minim:
-                 minim = int(in_list[i])
+
            
