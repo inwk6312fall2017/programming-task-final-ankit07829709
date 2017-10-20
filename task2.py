@@ -37,7 +37,7 @@ import weather
          condition = location.condition()
          print(condition['text'])
  
-          # Get weather forecasts for the upcoming 10 days.
+          # Get weather forecasts for the upcoming 5 days.
          forecastslist = location.forecast()[:5]
         for forecasts in forecastslist:
              print(forecasts['text'])
@@ -56,7 +56,7 @@ import weather
          location = self.weather_handle.lookup_by_location(self.metropolis)
          condition = location.condition()
         self.current_condition = condition['text']
-          # Get weather forecasts for the upcoming 10 days.
+          # Get weather forecasts for the upcoming 5 days.
          day_count = 0
          forecastslist = location.forecast()[:5]
  
